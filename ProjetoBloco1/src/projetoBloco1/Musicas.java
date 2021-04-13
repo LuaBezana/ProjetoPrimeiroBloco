@@ -9,8 +9,16 @@ public class Musicas extends Listas{
 	
 	@Override
 	public void listaGeneros() {
-		System.out.println("");
-		}
+		System.out.println("\n__________________________________________________________");
+		System.out.println("\nDigite o código do gênero desejado:"
+				+ "\n1- Pop"
+				+ "\n2- Rock"
+				+ "\n3- Sertanejo"
+				+ "\n4- Samba"
+				+ "\n5- Rap"
+				+ "\n6- KPOP"
+				+ "\n__________________________________________________________");
+	}
 
 	@Override
 	public List<String> lista1()
@@ -27,6 +35,7 @@ public class Musicas extends Listas{
 	public List<String> lista2()
 	{
 		List<String> listaRock = new ArrayList<String>();
+		listaRock.add("Led Zeppelin - Stairway To Heaven");
 		listaRock.add("Guns N' Roses - Sweet Child O' Mine");
 		listaRock.add("Metallica - One");
 		listaRock.add("The Strokes - Reptilia");
@@ -77,5 +86,4 @@ public class Musicas extends Listas{
 		listaKpop.add("TWICE - I Can't Stop Me");
 		return listaKpop;
 	}	
-
 }

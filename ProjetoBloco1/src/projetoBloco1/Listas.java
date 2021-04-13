@@ -3,7 +3,7 @@ package projetoBloco1;
 import java.util.List;
 
 public abstract class Listas {
-	
+
 	public Listas() {}
 	
 	abstract public void listaGeneros();	
@@ -19,5 +19,4 @@ public abstract class Listas {
 	abstract public List<String> lista5();
 
 	abstract public List<String> lista6();
-
 }
